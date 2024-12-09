@@ -15,3 +15,26 @@ function loginit(username){
 }
 
 console.log(loginit());
+
+function calculate(...num1){
+     return num1
+}
+
+console.log(calculate(200,300,300));
+
+
+const userstudent={
+    name:"nihalraza",
+    age:16
+}
+
+function anyuser(anyobject){
+    console.log(`username is ${anyobject.name} and your age is ${anyobject.age}`);
+}
+
+//anyuser(userstudent)
+anyuser({
+    name:"huzaifa",
+    age:15
+})
+
